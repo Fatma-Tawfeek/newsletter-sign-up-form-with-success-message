@@ -1,0 +1,27 @@
+@media (max-width: 480px) {
+    body {
+        margin: 0;
+    }
+    section {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .card {
+        flex-direction: column;
+        height: 100vh;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .card-title {
+        margin: 0;
+        margin-top: 2rem;
+        font-size: 4rem;
+    }
+
+    .form-container {
+        order: 2;
+        padding: 3rem;
+    }
+}
