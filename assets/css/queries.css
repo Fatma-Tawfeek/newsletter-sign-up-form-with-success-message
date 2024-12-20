@@ -9,7 +9,7 @@
 
     .card {
         flex-direction: column;
-        height: 100vh;
+        min-height: 100vh;
         border-radius: 0;
         padding: 0;
     }
