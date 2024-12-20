@@ -38,6 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
 }
 
 .card {
@@ -46,7 +47,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 24px;
     max-width: 90rem;
 }
@@ -103,11 +104,11 @@ label {
 }
 
 input {
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 5px;
     border: 1px solid var(--gray-color);
     margin-bottom: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 input::placeholder {
@@ -126,7 +127,7 @@ input:focus {
 }
 
 .card-btn {
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 5px;
     background-color: var(--dark-slate-gray);
     color: var(--white-color);

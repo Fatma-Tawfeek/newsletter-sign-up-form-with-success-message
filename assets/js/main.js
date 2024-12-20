@@ -17,6 +17,9 @@ form.addEventListener("submit", function (e) {
         formCard.style.display = "none";
         successMsgCard.style.display = "block";
         emailMsg.innerText = email.value;
+        email.value = "";
+        errorMsg.style.display = "none";
+        email.classList.remove("invalid");
     } else {
         email.classList.add("invalid");
         errorMsg.style.display = "block";
